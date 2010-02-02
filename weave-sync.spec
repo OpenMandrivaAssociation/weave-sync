@@ -1,7 +1,7 @@
 %define name	    weave-sync
 %define version     1.0
-%define snapshot    6865b07629d7
-%define release     %mkrel 0.20100121.1
+%define snapshot    66293bd9e163
+%define release     %mkrel 0.20100201.1
 
 %define _requires_exceptions pear(.*)
 
