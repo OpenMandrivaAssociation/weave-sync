@@ -85,3 +85,25 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/%{name}.conf
 %{_datadir}/%{name}
 
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0-0.20100308.2mdv2011.0
++ Revision: 615434
+- the mass rebuild of 2010.1 packages
+
+* Sat Mar 13 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-0.20100308.1mdv2010.1
++ Revision: 518690
+- new snapshot
+
+* Tue Feb 02 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-0.20100201.1mdv2010.1
++ Revision: 499789
+- new snapshot
+
+* Thu Jan 21 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-0.20100121.1mdv2010.1
++ Revision: 494744
+- import weave-sync
+
+
+* Thu Jan 21 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-0.20100121.1mdv2010.1
+-  first mdv release 
