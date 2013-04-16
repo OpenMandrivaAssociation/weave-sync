@@ -1,13 +1,8 @@
-%define name	    weave-sync
-%define version     1.0
 %define snapshot    69faab92136d
-%define release     %mkrel 0.20100308.2
 
-%define _requires_exceptions pear(.*)
-
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		weave-sync
+Version:	1.0
+Release:	0.20100308.3
 Summary:	Firefox synchronisation service
 License:	GPL
 Group:		Networking/WWW
@@ -16,7 +11,6 @@ Source0:    weaveserver-sync-%{snapshot}.tar.bz2
 Source1:    weave.sql
 Requires:	apache-mod_php
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Weave is a Mozilla Labs project to integrate web services into Firefox by
