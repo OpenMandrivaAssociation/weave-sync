@@ -2,7 +2,7 @@
 
 Name:		weave-sync
 Version:	1.0
-Release:	0.20100308.3
+Release:	0.20100308.4
 Summary:	Firefox synchronisation service
 License:	GPL
 Group:		Networking/WWW
@@ -54,8 +54,7 @@ Alias /weave %{_datadir}/%{name}
 
 <Directory %{_datadir}/%{name}>
     Options Indexes FollowSymLinks
-    Order allow,deny
-    Allow from all
+    Require all granted
 </Directory>
 EOF
 
