@@ -2,7 +2,7 @@
 
 Name:		weave-sync
 Version:	1.0
-Release:	0.20100308.4
+Release:	0.20100308.5
 Summary:	Firefox synchronisation service
 License:	GPL
 Group:		Networking/WWW
